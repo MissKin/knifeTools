@@ -263,20 +263,20 @@
   .el-message--info .el-message__content {
     color: #878d99; }
   .el-message--success {
-    background-color: #f0f9eb;
-    border-color: #e1f3d8; }
+    background-color: #fff1e6;
+    border-color: #ffe3cc; }
     .el-message--success .el-message__content {
-      color: #67c23a; }
+      color: #FF7300; }
   .el-message--warning {
     background-color: #fffae6;
     border-color: #fff5cc; }
     .el-message--warning .el-message__content {
       color: #FFCC00; }
   .el-message--error {
-    background-color: #ffeeee;
-    border-color: #fedddd; }
+    background-color: #feeee9;
+    border-color: #fdded3; }
     .el-message--error .el-message__content {
-      color: #fa5555; }
+      color: #F55923; }
   .el-message__icon {
     margin-right: 10px; }
   .el-message__content {
@@ -299,9 +299,9 @@
     .el-message__closeBtn:hover {
       color: #878d99; }
   .el-message .el-icon-success {
-    color: #67c23a; }
+    color: #FF7300; }
   .el-message .el-icon-error {
-    color: #fa5555; }
+    color: #F55923; }
   .el-message .el-icon-info {
     color: #878d99; }
   .el-message .el-icon-warning {

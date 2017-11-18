@@ -1,26 +1,23 @@
 <template>
   <div class="module_content" >
-    <div class="content_box"v-for=" (child, index) in product.children" :key="index">
+    <router-link tag="div" :to="'/commodityDetail/' + child.id" class="content_box"v-for=" (child, index) in product" :key="index">
       <p class="top"><span class="btn_new" v-if="child.new">new</span><span class="btn_hot" v-if="child.hot">hot</span></p>
       <img class="previewImg" :src="child.previewUrl" alt="">
       <h3 class="title">{{child.name}}</h3>
       <span class="format">{{child.format}} </span>
       <h4 class="price">￥{{child.price}} <i class="yellow_shopcart iconfont el-icon-knife-shop_cart"></i></h4>
-    </div>
+    </router-link>
   </div>
 </template>
 <script>
   export default{
     props: {
-      product: {
-        type: Object,
-        default: null
-      }
+      product: [Object, Array]
     }
   }
 </script>
 <style lang="scss" >
-.module_content{
+  .module_content{
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

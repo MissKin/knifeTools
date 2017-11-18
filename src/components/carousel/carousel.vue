@@ -4,10 +4,10 @@
       <div class="site-category">
         <ul class="site-category-list clearfix">
           <li v-for="(item, index) in menuList" :key="index" :class="['category-item', {'category-item-avtive': activeTab === index}]" @mouseover="activeTab = index" @mouseleave="activeTab = -1">
-            <a href="#" class=" ">{{item.label}} <i class="el-icon-arrow-right"></i></a>
+            <router-link tag="a" href="#" :to="'/productList/'+item.name" class=" ">{{item.label}} <i class="el-icon-arrow-right"></i></router-link>
             <div class="children-item">
               <div class="children-list">
-                <a href="" class="child-link" v-for="(child, index) in item.children" :key="index">{{child.label}}</a>
+                <router-link tag="a" :to="'/commodityDetail/' + index" class="child-link" v-for="(child, index) in item.children" :key="index">{{child.label}}</router-link>
               </div>
             </div>
           </li>
@@ -26,74 +26,6 @@
   export default {
     data () {
       return {
-        menuList: [
-          {
-            label: '刀片 合金铣刀',
-            name: 'blade',
-            children: [
-              {
-                label: '面铣刀刀柄',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a011'
-              },
-              {
-                label: '面铣刀刀柄02',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a012'
-              },
-              {
-                label: '面铣刀刀柄03',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a012'
-              },
-              {
-                label: '面铣刀刀柄04',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a012'
-              }
-            ]
-          },
-          {
-            label: '刀片 合金铣刀 02',
-            name: 'blade2',
-            children: [
-              {
-                label: '刀片01',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a020'
-              },
-              {
-                label: '刀片02',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a021'
-              }
-            ]
-          },
-          {
-            label: '刀片 合金铣刀 03',
-            name: 'blade3',
-            children: [
-              {
-                label: '刀片30',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a030'
-              },
-              {
-                label: '刀片31',
-                previewUrl: 'https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80',
-                path: './detail',
-                id: 'a031'
-              }
-            ]
-          }
-        ],
         activeTab: -1,
         bannerList: [
           {
@@ -107,7 +39,8 @@
           }
         ]
       }
-    }
+    },
+    props: ['menuList']
   }
 </script>
 

@@ -252,10 +252,10 @@
     -ms-flex-pack: center;
     justify-content: center; }
   .el-alert--success {
-    background-color: #f0f9eb;
-    color: #67c23a; }
+    background-color: #fff1e6;
+    color: #FF7300; }
     .el-alert--success .el-alert__description {
-      color: #67c23a; }
+      color: #FF7300; }
   .el-alert--info {
     background-color: #f3f4f5;
     color: #878d99; }
@@ -267,10 +267,10 @@
     .el-alert--warning .el-alert__description {
       color: #FFCC00; }
   .el-alert--error {
-    background-color: #ffeeee;
-    color: #fa5555; }
+    background-color: #feeee9;
+    color: #F55923; }
     .el-alert--error .el-alert__description {
-      color: #fa5555; }
+      color: #F55923; }
   .el-alert__content {
     display: table-cell;
     padding: 0 8px; }

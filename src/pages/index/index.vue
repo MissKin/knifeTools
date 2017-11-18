@@ -1,6 +1,6 @@
 <template>
   <div>
-    <carousel></carousel>
+    <carousel :menuList="proList"></carousel>
     <!-- 主打模块 -->
     <div class="knife_container">
       <!-- 模块一 -->
@@ -70,15 +70,6 @@
             <a>更多</a>
           </p>
         </div>
-        <!-- <div class="module_content" >
-          <div class="content_box"v-for=" (child, index) in product.children" :key="index">
-            <p class="top"><span class="btn_new" v-if="child.new">new</span><span class="btn_hot" v-if="child.hot">hot</span></p>
-            <img class="previewImg" :src="child.previewUrl" alt="">
-            <h3 class="title">{{child.name}}</h3>
-            <span class="format">{{child.format}} </span>
-            <h4 class="price">￥{{child.price}} <i class="yellow_shopcart iconfont el-icon-knife-shop_cart"></i></h4>
-          </div>
-        </div> -->
         <product :product = "product" ></product>
       </div>
     </div>
@@ -87,6 +78,7 @@
 <script>
 import carousel from '@/components/carousel/carousel'
 import product from '@/components/product/product'
+import { mapState, mapActions } from 'vuex'
 export default {
   components: {
     carousel,
@@ -94,112 +86,39 @@ export default {
   },
   data () {
     return {
-      proList: [
-        {
-          label: '数控刀具',
-          name: 'first',
-          children: [
-            {
-              new: true,
-              hot: true,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            }
-          ]
-        },
-        {
-          label: '普通刀具',
-          name: 'first',
-          children: [
-            {
-              new: true,
-              hot: true,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            },
-            {
-              new: true,
-              hot: false,
-              name: '刃天行 方肩铣刀',
-              format: 'RTXA0378',
-              price: '28.00-38.00',
-              previewUrl: 'https://i1.mifile.cn/a1/pms_1495073969.01063180!220x220.jpg'
-            }
-          ]
-        }
-      ]
+      // proList: null // 二级目录
     }
   },
+  activated () {
+    this.getSecondList()
+  },
   methods: {
+    // async getList () {
+    //   let res = await getSecondList()
+    //   let data = res.data
+    //   let code = data.data.code
+    //   if (code !== 200 && code !== 304) {
+    //     console.log('出错了')
+    //   } else {
+    //     this.proList = data.data.data
+    //   }
+    // },
+    ...mapActions(['getSecondList'])
+  },
+  mounted () {
+    // this.getSecondList()
+  },
+  computed: {
+    ...mapState({
+      proList: state => {
+        return state.productList.secondList
+      }
+    })
   }
 }
 </script>
 <style lang="scss">
-  $font_color:#474747;
-  .pr10{padding-right: 10px;}
-  .bg-f6{background: #f6f6f6;}
-  .bg-ee{background: #EEEEEE;}
-  $font_ora:#FF7300;
+  @import '../../style/mixin.scss';
 
   .bg-purple {
     background: #d3dce6;

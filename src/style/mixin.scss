@@ -1,0 +1,27 @@
+@mixin fontbase($color: #555555, $size: 14px, $lineH:1.5){
+  color: $color;
+  font-size: $size;
+  line-height: $lineH;
+}
+
+$font_color:#474747;
+.pr10{padding-right: 10px;}
+.bg-f6{background: #f6f6f6;}
+.bg-ee{background: #EEEEEE;}
+$font_ora:#FF7300;
+
+.mar-bt30{
+  margin-bottom: 30px;
+}
+.mar-bt20{
+  margin-bottom: 20px;
+}
+.mar-bt15{
+  margin-bottom: 15px;
+}
+.color-org{
+  color:#F5A623;
+}
+.color-gray{
+  color:#707274;
+}

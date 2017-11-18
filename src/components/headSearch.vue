@@ -1,7 +1,7 @@
 <template>
     <div class="head_search">
         <div class="knife_container search_m">
-            <a href="javascript:;" class="search_logo"><img src="../images/knife_logo.png" alt=""></a>
+            <router-link tag="a" to="/" class="search_logo"><img src="../images/knife_logo.png" alt=""></router-link>
             <div class="form">
                 <input type="text" class="text" placeholder="按商品、品牌、型号进行搜索..."/>
                 <a href="javascript:void(0);" class="btn el-icon-search"></a>

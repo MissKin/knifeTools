@@ -1,0 +1,617 @@
+{
+  "getSecondList": {
+    "code": 200,
+    "message": "发送成功啦",
+    "data": [
+      {
+        "label": "哈哈哈哈",
+        "name": "blade1",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "数控车刀",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "turning",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "镗刀系列",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "boring",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "钻头铰刀",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "bit",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "强力刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "shank",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "强力刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "shank1",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "强力刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "shank2",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "强力刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "shank4",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      },
+      {
+        "label": "强力刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/80-5a.png?width=80&height=80",
+        "name": "shank5",
+        "children": [
+          {
+            "new": true,
+            "hot": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄01",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a011"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          },
+          {
+            "new": true,
+            "name": "刃天行 方肩铣刀",
+            "format": "RTXA0378",
+            "price": "28.00-38.00",
+            "label": "面铣刀刀柄02",
+            "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+            "path": "./detail",
+            "id": "a012"
+          }
+        ]
+      }
+    ]
+  },
+  "getThirdList":{
+    "code": 200,
+    "message": "发送成功啦",
+    "data":  [
+      {
+        "proId": "001",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "面铣刀刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "002",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "侧固刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "003",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "弹簧夹头刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "004",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "攻丝刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "005",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "莫氏刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      }
+    ]
+  },
+  "getSkuList":{
+    "code": 200,
+    "message": "发送成功啦",
+    "data":  [
+      {
+        "proId": "001",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "面铣刀刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "002",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "侧固刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "003",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "弹簧夹头刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "004",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "攻丝刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      },
+      {
+        "proId": "005",
+        "new": true,
+        "hot": true,
+        "name": "刃天行 方肩铣刀",
+        "format": "RTXA0378",
+        "price": "28.00-38.00",
+        "label": "莫氏刀柄",
+        "previewUrl": "https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+        "path": "./detail"
+      }
+    ]
+  },
+  "getSkuDetail":{
+    "code": 200,
+    "message":"成功",
+    "data":{
+      "skuId":"a001",
+      "brand":"品牌名",
+      "name":"商品名",
+      "priceSection":"28.00-38.00",
+      "supply":"1",
+      "sizes":[
+        {
+          "type":"4*4*200",
+          "amount":100,
+          "price":"30.00"
+        },
+        {
+          "type":"4*4*200",
+          "amount":100,
+          "price":"30.00"
+        },
+        {
+          "type":"4*4*200",
+          "amount":100,
+          "price":"30.00"
+        },
+        {
+          "type":"4*4*200",
+          "amount":100,
+          "price":"30.00"
+        },
+        {
+          "type":"4*4*200",
+          "amount":100,
+          "price":"30.00"
+        }
+      ],
+      "previewUrls":[
+        {
+          "name":"first",
+          "smallPreviewUrl":"https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+          "bigPreviewUrl":"https://i8.mifile.cn/a1/pms_1505110879.90398489!560x560.jpg"
+        },
+        {
+          "name":"second",
+          "smallPreviewUrl":"https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+          "bigPreviewUrl":"https://i8.mifile.cn/a1/pms_1505110879.90398489!560x560.jpg"
+        },
+        {
+          "name":"third",
+          "smallPreviewUrl":"https://i1.mifile.cn/f/i/g/2015/cn-index/note3-80-2.png?width=80&height=80",
+          "bigPreviewUrl":"https://i8.mifile.cn/a1/pms_1505110879.90398489!560x560.jpg"
+        }
+      ]
+    }
+  }
+}

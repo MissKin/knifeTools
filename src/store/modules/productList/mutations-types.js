@@ -1,0 +1,1 @@
+export const GETSECONDLIST = 'GETSECONDLIST'
